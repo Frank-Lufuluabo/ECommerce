@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7388B1B-997A-4387-80DF-3CA44FCE94F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.App", "ShoppingCart.App\ShoppingCart.App.csproj", "{FE8D10FB-EAA9-45BF-B2CC-8DD19BCE3473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Application", "ShoppingCart.Application\ShoppingCart.Application.csproj", "{85CE9A7A-1A33-49A2-B54F-9D050F37ED31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Domain", "ShoppingCart.Domain\ShoppingCart.Domain.csproj", "{9A75C760-7B21-48B0-BED7-7B48FCFC8078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Infrastructure", "ShoppingCart.Infrastructure\ShoppingCart.Infrastructure.csproj", "{74A77E56-DF45-44E5-9974-311438CE7DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Persistence", "ShoppingCart.Persistence\ShoppingCart.Persistence.csproj", "{911F34F6-8041-41DE-980B-B968E7D7734C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Presentation", "ShoppingCart.Presentation\ShoppingCart.Presentation.csproj", "{821F5767-0D8A-439C-AD1F-86D149FA0198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE8D10FB-EAA9-45BF-B2CC-8DD19BCE3473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8D10FB-EAA9-45BF-B2CC-8DD19BCE3473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8D10FB-EAA9-45BF-B2CC-8DD19BCE3473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8D10FB-EAA9-45BF-B2CC-8DD19BCE3473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CE9A7A-1A33-49A2-B54F-9D050F37ED31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CE9A7A-1A33-49A2-B54F-9D050F37ED31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CE9A7A-1A33-49A2-B54F-9D050F37ED31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CE9A7A-1A33-49A2-B54F-9D050F37ED31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A75C760-7B21-48B0-BED7-7B48FCFC8078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A75C760-7B21-48B0-BED7-7B48FCFC8078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A75C760-7B21-48B0-BED7-7B48FCFC8078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A75C760-7B21-48B0-BED7-7B48FCFC8078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A77E56-DF45-44E5-9974-311438CE7DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A77E56-DF45-44E5-9974-311438CE7DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A77E56-DF45-44E5-9974-311438CE7DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A77E56-DF45-44E5-9974-311438CE7DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911F34F6-8041-41DE-980B-B968E7D7734C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911F34F6-8041-41DE-980B-B968E7D7734C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911F34F6-8041-41DE-980B-B968E7D7734C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911F34F6-8041-41DE-980B-B968E7D7734C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821F5767-0D8A-439C-AD1F-86D149FA0198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821F5767-0D8A-439C-AD1F-86D149FA0198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821F5767-0D8A-439C-AD1F-86D149FA0198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821F5767-0D8A-439C-AD1F-86D149FA0198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE8D10FB-EAA9-45BF-B2CC-8DD19BCE3473} = {E7388B1B-997A-4387-80DF-3CA44FCE94F8}
+		{85CE9A7A-1A33-49A2-B54F-9D050F37ED31} = {E7388B1B-997A-4387-80DF-3CA44FCE94F8}
+		{9A75C760-7B21-48B0-BED7-7B48FCFC8078} = {E7388B1B-997A-4387-80DF-3CA44FCE94F8}
+		{74A77E56-DF45-44E5-9974-311438CE7DE7} = {E7388B1B-997A-4387-80DF-3CA44FCE94F8}
+		{911F34F6-8041-41DE-980B-B968E7D7734C} = {E7388B1B-997A-4387-80DF-3CA44FCE94F8}
+		{821F5767-0D8A-439C-AD1F-86D149FA0198} = {E7388B1B-997A-4387-80DF-3CA44FCE94F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0440C88-35B5-4B7E-956D-5175D2FC43DF}
+	EndGlobalSection
+EndGlobal
