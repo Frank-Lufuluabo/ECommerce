@@ -1,4 +1,6 @@
 
+using ShoppingCart.App.ExtensionMethod;
+
 namespace ShoppingCart.App
 {
     public class Program
@@ -7,17 +9,14 @@ namespace ShoppingCart.App
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
-
-
-
-
             // Add services to the container.
 
+            builder.Services.RegisterController();
+
             //builder.Services.AddControllers();
-            //// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            //builder.Services.AddEndpointsApiExplorer();
-            //builder.Services.AddSwaggerGen();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 

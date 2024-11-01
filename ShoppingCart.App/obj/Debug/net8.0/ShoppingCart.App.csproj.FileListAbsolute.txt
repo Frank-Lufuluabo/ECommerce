@@ -30,3 +30,11 @@ C:\Users\User\source\repos\ECommerce\ShoppingCart.App\obj\Debug\net8.0\refint\Sh
 C:\Users\User\source\repos\ECommerce\ShoppingCart.App\obj\Debug\net8.0\ShoppingCart.App.pdb
 C:\Users\User\source\repos\ECommerce\ShoppingCart.App\obj\Debug\net8.0\ShoppingCart.App.genruntimeconfig.cache
 C:\Users\User\source\repos\ECommerce\ShoppingCart.App\obj\Debug\net8.0\ref\ShoppingCart.App.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\MediatR.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\ShoppingCart.Presentation.dll
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\bin\Debug\net8.0\ShoppingCart.Presentation.pdb
+C:\Users\User\source\repos\ECommerce\ShoppingCart.App\obj\Debug\net8.0\ShoppingCart.App.sourcelink.json

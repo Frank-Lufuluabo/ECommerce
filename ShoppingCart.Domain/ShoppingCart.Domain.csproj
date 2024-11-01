@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="BaseTypes\" />
+    <Folder Include="Common\" />
+    <Folder Include="Constants\" />
+    <Folder Include="DomainEvents\" />
+    <Folder Include="Entities\" />
+    <Folder Include="EntityKeys\" />
+    <Folder Include="EntityIds\" />
+    <Folder Include="Enumerations\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Errors\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Results\" />
+  </ItemGroup>
+
 </Project>

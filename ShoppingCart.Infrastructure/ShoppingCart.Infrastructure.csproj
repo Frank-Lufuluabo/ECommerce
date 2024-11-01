@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Authentications\" />
+    <Folder Include="BackgroundJobs\" />
+    <Folder Include="Builders\" />
+    <Folder Include="Decorations\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Services\" />
+    <Folder Include="Resolvers\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Policies\" />
+  </ItemGroup>
+
 </Project>
